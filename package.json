@@ -1,0 +1,15 @@
+{
+  "name": "preentrega3-ignaciobarrera",
+  "version": "1.0.0",
+  "description": "Pre entrega 3 CODERHOUSE",
+  "main": "start",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "preentrega3-ignaciobarrera"
+  },
+  "author": "Ignacio barrera",
+  "license": "ISC"
+}
