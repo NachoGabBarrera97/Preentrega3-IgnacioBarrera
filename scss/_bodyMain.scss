@@ -1,0 +1,81 @@
+main{
+    width: 100%;
+    height: $tamanioSection;
+    z-index: 5;
+    .section__img{
+        width: 100%;
+        height: 700px;
+
+        &1{
+            width: 100%;
+            height: 700px;
+        }
+    }
+    .section__grid{
+        margin: 0px 10px 0px 10px;
+        height:900px;
+        margin-left: 10px;
+        margin-right: 10px;
+        @include grid(1fr 1fr 1fr, 20% 1fr 20%, space-between, start);
+        grid-template-areas: 
+        "titulo1 titulo2 titulo3"
+        "image1 image2 image3"
+        "des1 des2 des3";
+    }
+    h2{
+        text-align: center;
+        margin-top:20px;
+    }
+    .h2__1{
+        grid-area:titulo1;
+    }
+    .h2__2{
+        grid-area:titulo2;
+    }
+    .h2__3{
+        grid-area:titulo3;
+    }
+    .img__B1{
+        grid-area:image1;
+        text-align: center;
+        align-content: start;
+    }
+    .img__B2{
+        grid-area:image2;
+        text-align: center;
+        align-content: start;
+    }
+    .img__B3{
+        grid-area:image3;
+        text-align: center;
+        align-content: start;
+    }
+    img:not(.section__img1){
+        border-radius: 25px 25px 25px 25px;
+        border: solid 3px black;
+        box-shadow: 10px 10px 10px 10px;
+    }
+    img:not(.section__img1):hover{
+        transform:scale(1.5);
+        transition:0.7s;
+    }
+    .p{
+        color: white;
+        &__1{
+            grid-area: des1;
+            text-align: center;
+            font-size:$tamanioP;
+        }
+        &__2{
+            grid-area: des2;
+            text-align: center;
+            font-size:$tamanioP;
+        }
+        &__3{
+            grid-area: des3;
+            text-align: center;
+            font-size:$tamanioP;
+        }
+    }
+}
+

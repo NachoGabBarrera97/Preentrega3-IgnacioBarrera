@@ -1,0 +1,26 @@
+@mixin flex ($dir, $wrap, $just, $align){
+    display: flex;
+    flex-flow:$dir $wrap;
+    justify-content: $just;
+    align-items: $align;
+}
+
+@mixin grid ($column, $row, $just, $align){
+    display:grid;
+    grid-template-columns:$column;
+    grid-template-rows:$row;
+    justify-content:$just;
+    align-items: $align;
+}
+
+@mixin mediaMobile(){
+    @media screen and (max-width:320px){
+        @content;
+    }       
+}
+
+@mixin mediaDesktop(){
+    @media screen and (max-width:768px){
+        @content;
+    }
+}

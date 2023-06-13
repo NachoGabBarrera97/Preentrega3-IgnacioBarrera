@@ -1,8 +1,31 @@
 // variables
 
 //
-@import "./variables";
-@import "./header";
+
+@import "_mixins";
+@import "_variables";
+@import "_header";
+@import "_footer";
+@import "_bodyMain";
+@import "_bodyArt";
+@import "_bodyUs";
+@import "_bodyLug";
+@import "_bodyCont";
 
 
+*{
+    padding: 0;
+    margin: 0;
+}
+
+@font-face {
+    font-family: AirAm;
+    src: url(../fonts/AirAmerica-Regular.otf);
+}
+
+
+body{
+     background-image:url("../images/image.png");
+     background-repeat: repeat;
+}
 
