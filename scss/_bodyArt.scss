@@ -1,0 +1,105 @@
+.artista{
+    height: 1200px;
+    width: 98%;
+    margin-left:20px;
+    @include flex(column, wrap, space-evenly, center);
+    &__1{
+        height: 380px;
+        width: 98%;
+        background-color: rgba(128,128,128,0.3);
+        border-radius: 25px 25px 25px 25px;
+        box-shadow:black 3px 3px 7px 7px;
+        @include grid(40% 1fr, 30% 1fr, space-between, center);
+        grid-template-areas:
+        "imgart1 titart1"
+        "imgart1 textoart1";
+        .art__img1{
+            grid-area: imgart1;
+            &Style{
+                width: 80%;
+                height: 360px;
+                margin-left:10px;
+                border-radius: 25px 25px 25px 25px;
+                transition: 0.7s;
+                &:hover{transform: scale(1.1);
+                box-shadow:black 3px 3px 7px 7px;}
+            }
+        }
+        .art__titulo1{
+            grid-area: titart1;
+            text-align: center;
+        }
+
+        .art__texto1{
+            grid-area: textoart1;
+            text-align: center;
+        }
+    }
+
+    &__2{
+        height: 380px;
+        width: 98%;
+        background-color: rgba(128,128,128,0.3);
+        border-radius: 25px 25px 25px 25px;
+        box-shadow:black 3px 3px 7px 7px;
+        @include grid(1fr 40%, 30% 1fr, space-between, center);
+        grid-template-areas:
+        "titart2 imgart2"
+        "textoart2 imgart2";
+        .art__img2{
+            grid-area: imgart2;
+            &Style{
+                width: 80%;
+                height: 360px;
+                margin-left:10px;
+                border-radius: 25px 25px 25px 25px;
+                transition: 0.7s;
+                &:hover{transform: scale(1.1);
+                box-shadow:black 3px 3px 7px 7px;}
+            }
+        }
+        .art__titulo2{
+            grid-area: titart2;
+            text-align: center;
+        }
+
+        .art__texto2{
+            grid-area: textoart2;
+            text-align: center;
+        }
+    }
+
+    &__3{
+        height: 380px;
+        width: 98%;
+        background-color: rgba(128,128,128,0.3);
+        border-radius: 25px 25px 25px 25px;
+        box-shadow:black 3px 3px 7px 7px;
+        @include grid(40% 1fr, 30% 1fr, space-between, center);
+        grid-template-areas:
+        "imgart3 titart3"
+        "imgart3 textoart3";
+        .art__img3{
+            grid-area: imgart3;
+            &Style{
+                width: 80%;
+                height: 360px;
+                margin-left:10px;
+                border-radius: 25px 25px 25px 25px;
+                transition: 0.7s;
+                &:hover{transform: scale(1.1);
+                box-shadow:black 3px 3px 7px 7px;}
+            }
+        }
+        .art__titulo3{
+            grid-area: titart3;
+            text-align: center;
+        }
+
+        .art__texto3{
+            grid-area: textoart3;
+            text-align: center;
+        }
+    }
+
+}

@@ -1,0 +1,50 @@
+.us{
+    background-color: rgba(128, 128, 128,0.4);
+    width: 90%;
+    height: 670px;
+    margin-left: 100px;
+    margin-right:20px;
+    margin-top:20px;
+    border-radius:25px 25px 25px 25px;
+    @include grid(1fr 1fr, 20% 1fr, space-evenly, center);
+    grid-template-areas:
+    "titulo imagen"
+    "texto imagen";
+    &__titulo{
+        grid-area: titulo;
+        text-align: center;
+        .us__h5{
+            font-size:50px;
+            color: white;
+            font-weight: bold;
+        } 
+    }
+    &__texto{
+        grid-area:texto;
+        text-align: center;
+        opacity: 1;
+        height: 400px;
+        overflow: hidden;
+        width: 700px;
+        margin-left:100px;
+        
+        .us__p1{
+            font-size: 29px;
+            color: white;
+        }
+    }
+    &__img{
+        grid-area:imagen;
+        text-align: center;
+        .us__imgStyle{
+            height: 600px;
+            border-radius:25px 25px 25px 25px;
+            transition: 0.7s;
+            &:hover{
+                transform: scale(1.1);
+                box-shadow:5px 10px 10px 10px rgba(255,255,255,0.4);
+            }
+        }
+        
+    }
+}

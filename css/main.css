@@ -1,6 +1,5 @@
 .header {
   height: 150px;
-  margin: 0px 10px 0px 10px;
   border-bottom: black solid 2px;
   box-shadow: -6px 4px 15px 10px;
 }
@@ -75,7 +74,7 @@
   align-items: center;
   position: fixed;
   left: 0;
-  bottom: -30px;
+  bottom: 10px;
   width: 100%;
   height: 100px;
 }
@@ -114,23 +113,23 @@
 }
 .pie__texto {
   font-size: 20px;
-  color: red;
+  color: white;
   flex-flow: wrap;
   text-align: center;
 }
 
 main {
   width: 100%;
-  height: 800px;
+  height: 900px;
   z-index: 5;
 }
 main .section__img {
   width: 100%;
-  height: 700px;
+  height: 800px;
 }
 main .section__img1 {
   width: 100%;
-  height: 700px;
+  height: 800px;
 }
 main .section__grid {
   margin: 0px 10px 0px 10px;
@@ -198,6 +197,192 @@ main .p__3 {
   grid-area: des3;
   text-align: center;
   font-size: 20px;
+}
+main .linkArtistas {
+  height: 180px;
+  width: 200px;
+  text-align: center;
+  margin-left: 860px;
+}
+main .linkArtistas a:link, main .linkArtistas a:visited, main .linkArtistas a:active {
+  text-decoration: none;
+}
+main .linkArtistas h3 {
+  margin: 20px;
+  font-size: 25px;
+  color: white;
+  box-shadow: 2px 2px 5px 5px black;
+}
+main .linkArtistas h3:hover {
+  transition: 0.7s;
+  transform: scale(1.2);
+  background-color: darkblue;
+}
+
+.artista {
+  height: 1200px;
+  width: 98%;
+  margin-left: 20px;
+  display: flex;
+  flex-flow: column wrap;
+  justify-content: space-evenly;
+  align-items: center;
+}
+.artista__1 {
+  height: 380px;
+  width: 98%;
+  background-color: rgba(128, 128, 128, 0.3);
+  border-radius: 25px 25px 25px 25px;
+  box-shadow: black 3px 3px 7px 7px;
+  display: grid;
+  grid-template-columns: 40% 1fr;
+  grid-template-rows: 30% 1fr;
+  justify-content: space-between;
+  align-items: center;
+  grid-template-areas: "imgart1 titart1" "imgart1 textoart1";
+}
+.artista__1 .art__img1 {
+  grid-area: imgart1;
+}
+.artista__1 .art__img1Style {
+  width: 80%;
+  height: 360px;
+  margin-left: 10px;
+  border-radius: 25px 25px 25px 25px;
+  transition: 0.7s;
+}
+.artista__1 .art__img1Style:hover {
+  transform: scale(1.1);
+  box-shadow: black 3px 3px 7px 7px;
+}
+.artista__1 .art__titulo1 {
+  grid-area: titart1;
+  text-align: center;
+}
+.artista__1 .art__texto1 {
+  grid-area: textoart1;
+  text-align: center;
+}
+.artista__2 {
+  height: 380px;
+  width: 98%;
+  background-color: rgba(128, 128, 128, 0.3);
+  border-radius: 25px 25px 25px 25px;
+  box-shadow: black 3px 3px 7px 7px;
+  display: grid;
+  grid-template-columns: 1fr 40%;
+  grid-template-rows: 30% 1fr;
+  justify-content: space-between;
+  align-items: center;
+  grid-template-areas: "titart2 imgart2" "textoart2 imgart2";
+}
+.artista__2 .art__img2 {
+  grid-area: imgart2;
+}
+.artista__2 .art__img2Style {
+  width: 80%;
+  height: 360px;
+  margin-left: 10px;
+  border-radius: 25px 25px 25px 25px;
+  transition: 0.7s;
+}
+.artista__2 .art__img2Style:hover {
+  transform: scale(1.1);
+  box-shadow: black 3px 3px 7px 7px;
+}
+.artista__2 .art__titulo2 {
+  grid-area: titart2;
+  text-align: center;
+}
+.artista__2 .art__texto2 {
+  grid-area: textoart2;
+  text-align: center;
+}
+.artista__3 {
+  height: 380px;
+  width: 98%;
+  background-color: rgba(128, 128, 128, 0.3);
+  border-radius: 25px 25px 25px 25px;
+  box-shadow: black 3px 3px 7px 7px;
+  display: grid;
+  grid-template-columns: 40% 1fr;
+  grid-template-rows: 30% 1fr;
+  justify-content: space-between;
+  align-items: center;
+  grid-template-areas: "imgart3 titart3" "imgart3 textoart3";
+}
+.artista__3 .art__img3 {
+  grid-area: imgart3;
+}
+.artista__3 .art__img3Style {
+  width: 80%;
+  height: 360px;
+  margin-left: 10px;
+  border-radius: 25px 25px 25px 25px;
+  transition: 0.7s;
+}
+.artista__3 .art__img3Style:hover {
+  transform: scale(1.1);
+  box-shadow: black 3px 3px 7px 7px;
+}
+.artista__3 .art__titulo3 {
+  grid-area: titart3;
+  text-align: center;
+}
+.artista__3 .art__texto3 {
+  grid-area: textoart3;
+  text-align: center;
+}
+
+.us {
+  background-color: rgba(128, 128, 128, 0.4);
+  width: 90%;
+  height: 670px;
+  margin-left: 100px;
+  margin-right: 20px;
+  margin-top: 20px;
+  border-radius: 25px 25px 25px 25px;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 20% 1fr;
+  justify-content: space-evenly;
+  align-items: center;
+  grid-template-areas: "titulo imagen" "texto imagen";
+}
+.us__titulo {
+  grid-area: titulo;
+  text-align: center;
+}
+.us__titulo .us__h5 {
+  font-size: 50px;
+  color: white;
+  font-weight: bold;
+}
+.us__texto {
+  grid-area: texto;
+  text-align: center;
+  opacity: 1;
+  height: 400px;
+  overflow: hidden;
+  width: 700px;
+  margin-left: 100px;
+}
+.us__texto .us__p1 {
+  font-size: 29px;
+  color: white;
+}
+.us__img {
+  grid-area: imagen;
+  text-align: center;
+}
+.us__img .us__imgStyle {
+  height: 600px;
+  border-radius: 25px 25px 25px 25px;
+  transition: 0.7s;
+}
+.us__img .us__imgStyle:hover {
+  transform: scale(1.1);
+  box-shadow: 5px 10px 10px 10px rgba(255, 255, 255, 0.4);
 }
 
 * {
