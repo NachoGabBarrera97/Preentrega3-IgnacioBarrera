@@ -80,6 +80,19 @@
 .pie__redes {
   text-align: center;
 }
+.pie__redes a {
+  text-decoration: none;
+  color: white;
+}
+.pie__redes a:link {
+  text-decoration: none;
+}
+.pie__redes a:active {
+  text-decoration: none;
+}
+.pie__redes a:visited {
+  text-decoration: none;
+}
 .pie__redes .redesB {
   outline: none;
   text-decoration: none;
@@ -93,22 +106,26 @@
 .pie__redes .fb:hover {
   border: 5px solid #1877f2;
   box-shadow: 0 0 15px #1877f2;
-  transition: all 0.5 ease;
+  transition: all 0.5s ease;
+  transform: scale(1.6);
 }
 .pie__redes .wp:hover {
   border: 5px solid #25D366;
   box-shadow: 0 0 15px #25D366;
-  transition: all 0.5 ease;
+  transition: all 0.5s ease;
+  transform: scale(1.6);
 }
 .pie__redes .ig:hover {
   border: 5px solid purple;
   box-shadow: 0 0 15px purple;
-  transition: all 0.5 ease;
+  transition: all 0.5s ease;
+  transform: scale(1.6);
 }
 .pie__redes .yt:hover {
   border: 5px solid red;
   box-shadow: 0 0 15px red;
-  transition: all 0.5 ease;
+  transition: all 0.5s ease;
+  transform: scale(1.6);
 }
 .pie__texto {
   font-size: 20px;
@@ -539,6 +556,19 @@ main .linkArtistas h3:hover {
   flex-flow: row wrap;
   justify-content: space-evenly;
   align-items: center;
+}
+.contacto__info ul a {
+  text-decoration: none;
+  color: white;
+}
+.contacto__info ul a:link {
+  text-decoration: none;
+}
+.contacto__info ul a:active {
+  text-decoration: none;
+}
+.contacto__info ul a:visited {
+  text-decoration: none;
 }
 .contacto__info ul .redesC {
   width: 100px;

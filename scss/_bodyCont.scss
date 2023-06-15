@@ -36,6 +36,19 @@
         grid-area: info;
         height: 100%;
            ul{
+            a {
+                text-decoration: none;
+                color: white;
+                &:link{
+                  text-decoration: none;
+                }
+                &:active{
+                  text-decoration: none;
+                }
+                &:visited{
+                  text-decoration: none;
+                }
+              }
             list-style: none;
             @include flex(row, wrap, space-evenly, center);
             .redesC{
