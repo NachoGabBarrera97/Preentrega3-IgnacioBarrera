@@ -1,0 +1,99 @@
+
+.divh7{text-align: center;}
+
+.h7{
+    font-size: 30px;
+    color: white;
+}
+
+.lugares__1{
+    height: 650px;
+    width: 95%;
+    margin-left: 50px;
+    @include flex(column, wrap, space-evenly, center);
+    &imgStyle{
+       border-radius: 25px 25px 25px 25px;
+       transition: 0.7s;
+       
+       
+    }
+    &img{:hover{transform:scale(1.5);}}
+
+    &titulo{
+        h6{
+            font-size:30px;
+            color: white;
+        }
+    }
+    &texto{
+        width: 50%;
+        &Style{
+            color: white;
+            font-size: 15px;
+            text-align: center;
+        }
+    }
+
+}
+
+.lugares__2{
+    height: 650px;
+    width: 95%;
+    margin-left: 50px;
+    @include flex(column, wrap, space-evenly, center);
+    &imgStyle{
+       border-radius: 25px 25px 25px 25px;
+       transition: 0.7s;
+       
+       
+    }
+    &img{:hover{transform:scale(1.5);}}
+
+    &titulo{
+        h6{
+            font-size:30px;
+            color: white;
+        }
+    }
+    &texto{
+        width: 50%;
+        &Style{
+            color: white;
+            font-size: 15px;
+            text-align: center;
+        }
+    }
+
+}
+
+.lugares__3{
+    height: 650px;
+    width: 95%;
+    margin-left: 50px;
+    @include flex(column, wrap, space-evenly, center);
+    &imgStyle{
+       border-radius: 25px 25px 25px 25px;
+       transition: 0.7s;
+       
+       
+    }
+    &img{:hover{transform:scale(1.5);}}
+
+    &titulo{
+        h6{
+            font-size:30px;
+            color: white;
+        }
+    }
+    &texto{
+        width: 50%;
+        &Style{
+            color: white;
+            font-size: 15px;
+            text-align: center;
+            margin-bottom:10px;
+        }
+    }
+
+}
+

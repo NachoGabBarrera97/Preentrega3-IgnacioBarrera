@@ -22,7 +22,6 @@
     &__texto{
         grid-area:texto;
         text-align: center;
-        opacity: 1;
         height: 400px;
         overflow: hidden;
         width: 700px;
@@ -47,4 +46,7 @@
         }
         
     }
+}
+.non{
+    display:none;
 }
