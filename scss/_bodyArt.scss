@@ -1,10 +1,12 @@
 .artista{
-    height: 1200px;
+    height: 1400px;
     width: 98%;
     margin-left:20px;
+    margin-bottom: 20px;
     @include flex(column, wrap, space-evenly, center);
+    
     &__1{
-        height: 380px;
+        height: 30%;
         width: 98%;
         background-color: rgba(128,128,128,0.3);
         border-radius: 25px 25px 25px 25px;
@@ -15,9 +17,10 @@
         "imgart1 textoart1";
         .art__img1{
             grid-area: imgart1;
+            height: 90%;
             &Style{
-                width: 80%;
-                height: 360px;
+                width: 90%;
+                height: 100%;
                 margin-left:10px;
                 border-radius: 25px 25px 25px 25px;
                 transition: 0.7s;
@@ -37,7 +40,7 @@
     }
 
     &__2{
-        height: 380px;
+        height: 30%;
         width: 98%;
         background-color: rgba(128,128,128,0.3);
         border-radius: 25px 25px 25px 25px;
@@ -71,7 +74,7 @@
     }
 
     &__3{
-        height: 380px;
+        height: 30%;
         width: 98%;
         background-color: rgba(128,128,128,0.3);
         border-radius: 25px 25px 25px 25px;

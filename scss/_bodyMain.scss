@@ -13,10 +13,10 @@ main{
     }
     .section__grid{
         margin: 0px 10px 0px 10px;
-        height:900px;
+        height:600px;
         margin-left: 10px;
         margin-right: 10px;
-        @include grid(1fr 1fr 1fr, 20% 1fr 20%, space-between, start);
+        @include grid(1fr 1fr 1fr, 10% 1fr 20%, space-between, center);
         grid-template-areas: 
         "titulo1 titulo2 titulo3"
         "image1 image2 image3"
@@ -39,6 +39,7 @@ main{
         grid-area:image1;
         text-align: center;
         align-content: start;
+        
     }
     .img__B2{
         grid-area:image2;
@@ -54,6 +55,8 @@ main{
         border-radius: 25px 25px 25px 25px;
         border: solid 3px black;
         box-shadow: 10px 10px 10px 10px;
+        width: 70%;
+        height: 100%;
     }
     img:not(.section__img1):hover{
         transform:scale(1.2);
@@ -81,7 +84,7 @@ main{
         height: 180px;
         width: 200px;
         text-align: center;
-        margin-left:860px;
+        margin-left:45%;
         a:link, a:visited, a:active{
             text-decoration: none;
         }
