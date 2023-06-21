@@ -1,8 +1,8 @@
 .contacto{
     background-color: rgba(255,255,255,0.3);
-    @include grid(70% 1fr, 1fr 1fr , space-evenly, center);
+    @include grid(60% 1fr, 1fr 1fr , space-between, center);
     height:600px ;
-    width:50% ;
+    width:100% ;
     margin-left:25%;
     margin-top:5%;
     grid-template-areas:
@@ -64,11 +64,12 @@
         grid-area: texto;
         border-left:solid 1px black;
         height: 100%;
-        padding-top:20px;
-        padding-left:10px;
+        margin-top:50px;
+        word-wrap: break-word;
         .p__contacto{
             font-size: 15px;
             color: white;
+            word-wrap: break-word;
         }
 
     }

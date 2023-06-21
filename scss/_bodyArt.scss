@@ -45,16 +45,17 @@
         background-color: rgba(128,128,128,0.3);
         border-radius: 25px 25px 25px 25px;
         box-shadow:black 3px 3px 7px 7px;
-        @include grid(1fr 40%, 30% 1fr, space-between, center);
+        @include grid(1fr 40%, 20% 1fr, space-between, center);
         grid-template-areas:
         "titart2 imgart2"
         "textoart2 imgart2";
         .art__img2{
             grid-area: imgart2;
+            height: 90%;
             &Style{
                 width: 80%;
-                height: 360px;
-                margin-left:50px;
+                height: 100%;
+                margin-left:10%;
                 border-radius: 25px 25px 25px 25px;
                 transition: 0.7s;
                 &:hover{transform: scale(1.1);
@@ -85,9 +86,10 @@
         "imgart3 textoart3";
         .art__img3{
             grid-area: imgart3;
+            height: 90%;
             &Style{
                 width: 80%;
-                height: 360px;
+                height: 100%;
                 margin-left:10px;
                 border-radius: 25px 25px 25px 25px;
                 transition: 0.7s;
