@@ -1,0 +1,21 @@
+@font-face {
+    font-family: AirAm;
+    src: url(../fonts/AirAmerica-Regular.otf);
+}
+
+*{
+    padding: 0;
+    margin: 0;
+}
+
+
+
+body{
+     background-image:url("../images/image.png");
+     background-repeat: repeat;
+}
+
+.fill{
+    height: 150px;
+    margin-bottom: 10px;
+}

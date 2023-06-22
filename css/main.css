@@ -1,3 +1,22 @@
+@font-face {
+  font-family: AirAm;
+  src: url(../fonts/AirAmerica-Regular.otf);
+}
+* {
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  background-image: url("../images/image.png");
+  background-repeat: repeat;
+}
+
+.fill {
+  height: 150px;
+  margin-bottom: 10px;
+}
+
 .header {
   height: 150px;
   width: 100%;
@@ -389,7 +408,7 @@ main .linkArtistas h3:hover {
   margin-left: 20%;
 }
 .us__titulo .us__h5 {
-  font-size: 50px;
+  font-size: 45px;
   color: white;
   font-weight: bold;
 }
@@ -457,7 +476,7 @@ main .linkArtistas h3:hover {
   transition: 0.7s;
 }
 .section__lugares .lugares__1img :hover {
-  transform: scale(1.5);
+  transform: scale(1.2);
 }
 .section__lugares .lugares__1titulo h6 {
   font-size: 30px;
@@ -487,7 +506,7 @@ main .linkArtistas h3:hover {
   transition: 0.7s;
 }
 .section__lugares .lugares__2img :hover {
-  transform: scale(1.5);
+  transform: scale(1.2);
 }
 .section__lugares .lugares__2titulo h6 {
   font-size: 30px;
@@ -517,7 +536,7 @@ main .linkArtistas h3:hover {
   transition: 0.7s;
 }
 .section__lugares .lugares__3img :hover {
-  transform: scale(1.5);
+  transform: scale(1.2);
 }
 .section__lugares .lugares__3titulo h6 {
   font-size: 30px;
@@ -688,7 +707,7 @@ main .linkArtistas h3:hover {
   display: block;
 }
 
-@media (max-width: 420px) {
+@media (max-width: 430px) {
   header a {
     font-size: 15px;
   }
@@ -875,24 +894,6 @@ main .linkArtistas h3:hover {
   .non {
     display: block;
   }
-}
-* {
-  padding: 0;
-  margin: 0;
-}
-
-@font-face {
-  font-family: AirAm;
-  src: url(../fonts/AirAmerica-Regular.otf);
-}
-body {
-  background-image: url("../images/image.png");
-  background-repeat: repeat;
-}
-
-.fill {
-  height: 150px;
-  margin-bottom: 10px;
 }
 
 /*# sourceMappingURL=main.css.map */
